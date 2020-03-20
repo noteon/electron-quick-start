@@ -1,3 +1,5 @@
+console.log("process.argv", process.argv); //electron . localhost:8000 --db=test
+
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
